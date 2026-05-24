@@ -30,4 +30,51 @@ It continuously executes:
 
 ---
 
+
+---
+
+## 🔧 Features
+
+- Autonomous execution loop
+- Event retrieval simulation
+- Structured report generation
+- Persistent memory system
+- Modular agent architecture
+- Long-running workflow design
+
+---
+
+## 🧪 Example Output
+
+- AI Event Reports
+- Structured analysis summaries
+- Persistent memory logs
+- Automated workflow cycles
+
+---
+
+## 🧱 Tech Stack
+
+- Python
+- NVIDIA Nemotron (conceptual integration)
+- Agent-based architecture
+- JSON memory storage
+- File-based persistence system
+
+---
+
+## 📌 Key Innovation
+
+This system demonstrates:
+
+> "An AI agent that behaves like a continuously running software entity rather than a conversational tool."
+
+---
+
+## ⚠️ Note
+
+This is not a chatbot.
+
+This is a persistent autonomous AI agent system.
+
 ## ⚙️ System Architecture
