@@ -1,0 +1,21 @@
+import json
+import os
+
+def save_memory(data):
+
+    print("Saving memory...")
+
+    os.makedirs("data", exist_ok=True)
+
+    path = "data/memory.json"
+
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            memory = json.load(f)
+    except:
+        memory = []
+
+    memory.append(data)
+
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(memory, f, ensure_ascii=False, indent=2)

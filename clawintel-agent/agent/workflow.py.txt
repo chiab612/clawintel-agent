@@ -1,0 +1,33 @@
+from datetime import datetime
+from agent.tools import search_events
+from agent.memory import save_memory
+
+def run_agent():
+
+    print("Running agent workflow...")
+
+    events = search_events()
+
+    report = f"""
+========================
+AI AGENT REPORT
+========================
+Time: {datetime.now()}
+
+[Collected Events]
+{events}
+
+[Process]
+1. Retrieved data
+2. Analyzed information
+3. Generated structured report
+4. Saved to memory
+========================
+"""
+
+    print(report)
+
+    save_memory(report)
+
+    with open("report.txt", "a", encoding="utf-8") as f:
+        f.write(report + "\n\n")

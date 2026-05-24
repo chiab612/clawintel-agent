@@ -1,0 +1,14 @@
+from agent.workflow import run_agent
+import time
+
+print("=================================")
+print("ClawIntel Agent STARTED")
+print("=================================")
+
+# 👉 避免卡死：先只跑3次（方便交件）
+for i in range(3):
+    print(f"\n--- Cycle {i+1} ---")
+    run_agent()
+    time.sleep(2)
+
+print("\nDONE. Agent finished execution.")

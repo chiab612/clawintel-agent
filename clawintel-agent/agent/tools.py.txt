@@ -1,0 +1,10 @@
+def search_events():
+
+    print("Searching events...")
+
+    return """
+1. NVIDIA Agent Hackathon
+2. AI Developer Meetup
+3. Blockchain + AI Conference
+4. Startup Networking Night
+"""
