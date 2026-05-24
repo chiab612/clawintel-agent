@@ -77,4 +77,16 @@ This is not a chatbot.
 
 This is a persistent autonomous AI agent system.
 
+## 🧭 Design Philosophy
+
+This project follows NVIDIA-style agent design principles:
+
+- Long-running autonomous execution
+- Modular tool-based architecture
+- Structured reasoning flow
+- Memory persistence
+- Scalable agent loop design
+
+The goal is to simulate production-level AI agent behavior rather than prototype-level chatbot interaction.
+
 ## ⚙️ System Architecture
